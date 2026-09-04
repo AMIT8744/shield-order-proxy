@@ -1,17 +1,23 @@
 {
   "version": 2,
   "functions": {
-    "api/order.js": {
+    "order.js": {
       "maxDuration": 10
     }
   },
+  "routes": [
+    {
+      "src": "/api/order",
+      "dest": "/order.js"
+    }
+  ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://shieldshop.in"
+          "value": "*"
         },
         {
           "key": "Access-Control-Allow-Methods",
