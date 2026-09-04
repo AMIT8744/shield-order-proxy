@@ -7,7 +7,7 @@
   },
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "order.js",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
