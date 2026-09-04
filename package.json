@@ -1,0 +1,9 @@
+{
+  "name": "shield-order-proxy",
+  "version": "1.0.0",
+  "description": "Shopify order proxy for Shield Healthcare thank you page",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  }
+}
